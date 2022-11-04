@@ -1,0 +1,139 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-color: #3c3b43;
+    color: #e7f4f6;
+    font-family: 'Bebas Neue', cursive;
+    cursor: crosshair;
+}
+
+#header {
+    margin: 0;
+    padding: 0 20px 0 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: none;
+}
+
+#title {
+    font-size: 2.5rem;
+}
+
+#btn {
+    width: 75px;
+    height: 75px;
+    background-color: grey;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 3px 1px #e7f4f6;
+}
+
+#line {
+    width: 30%;
+    height: 2px;
+    background-color: #e7f4f6;
+    margin-bottom: 2px;
+    opacity: .52;
+}
+
+#line2 {
+    width: 30%;
+    height: 2px;
+    background-color: #e7f4f6;
+    margin-top: 2px;
+    opacity: .5;
+}   
+
+/* CSS for X reference
+#line {
+    width: 30%;
+    height: 2px;
+    background-color: #e7f4f6;
+    margin-bottom: -1px;
+    transform-origin: center;
+    transform: rotate(45deg);
+}
+
+#line2 {
+    width: 30%;
+    height: 2px;
+    background-color: #e7f4f6;
+    margin-top: -1px;
+    transform-origin: center;
+    transform: rotate(-45deg);
+} */
+
+#content {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100%;
+    opacity: 0;
+}
+
+#pages {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 5%;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Dorsa', sans-serif;
+    letter-spacing: 5px;
+}
+
+#footer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+#footer h3 {
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+
+#socials {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#socials h3 {
+    margin: 0 10px 0 10px;
+}
+
+@media (max-width: 500px){
+    #title {
+        font-size: 2rem;
+    }
+
+    #btn {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-height: 700px){
+
+    #pages h1 {
+        margin: 0;
+    }
+}
