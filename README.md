@@ -3,7 +3,8 @@
 This folder will hold concept ideas I come up with or get inspired from.
 None of these will be full websites/applications but rather portions so they may lack in content.
 Using this to practice making responsive animations for websites in the future. Such as landing pages, website intros, components. Go to the link below to actually see the concepts in action or go to the folder to see the code itself.
-[Showcase](https://masej.github.io/Concepts/)
+
+## [Showcase](https://masej.github.io/Concepts/)
 
 
 ## Nav Fade/Drop In
