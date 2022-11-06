@@ -1,0 +1,111 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f8f2e0;
+    color: #1c1f24;
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #1c1f24;
+}
+
+#main {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+#img {
+    height: 100%;
+    width: 100%;
+    background: url("images/simeydotme_Landscape_Chinese_Watercolour_Painting__a_lake_in_th_733db17e-a60a-4bf6-b6c2-73c9fbd52033.png");
+}
+
+#header {
+    margin: 0;
+    width: 15%;
+    padding: 0 0 0 5px;
+    display: flex;
+    flex-direction: row;
+    writing-mode: vertical-rl;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+#content {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#content > * {
+    position: relative;
+}
+
+#content ul > * {
+    position: relative;
+}
+
+#footer {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    z-index: 5;
+}
+
+#footer a {
+    padding: 0;
+    margin: 0 15px 0 15px;
+    font-size: 1.1rem;
+}
+
+#content ul {
+    margin: 5% 0 0 0;
+    padding: 0;
+    list-style: none;
+    font-size: 3rem;
+}
+
+#content li {
+    padding: 0;
+    margin: 50px 0 50px 0;
+}
+
+.effect-shine:hover {
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 2s infinite;
+  }
+  
+  @keyframes shine {
+    from {
+      -webkit-mask-position: 150%;
+    }
+    
+    to {
+      -webkit-mask-position: -50%;
+    }
+  }
