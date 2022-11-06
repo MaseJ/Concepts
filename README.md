@@ -21,3 +21,8 @@ nav-fullPageHover
 
 Another simple idea I had. Inspired from another website to have a nav that covers the whole screen with a similiar hover effect. Originally I thought showing a small image to the side would be nice but I like the abstract look of having a zoomed in image and not really knowing what it is.
 Hover effect was done purely with css and the button on top right is done with gsap. I am really liking not sticking to having everything inline and more of a abstract or random feel. Makes the page look more interesting in my opinion. 
+
+## Big Nav Marquee
+nav-fullPageHover
+
+Starting to see more marquee ideas in web design and wanted to take a crack at it. I wanted to do a twist with it and add some hover to it. Was inspired by another web design that had the marquee hidden till hovered over. Tried to do this with gsap but thought it was simple enough to just use css. Problem is the animation kind of breaks with smaller screens but the hover will be pointless anyways so disabled it when smaller than 730px width. Also want to use a variety of words for each marquee but it messes with the timing of the animation. Maybe will go back and try to perfect it more.
