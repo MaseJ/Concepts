@@ -28,3 +28,8 @@ Hover effect was done purely with css and the button on top right is done with g
 nav-fullPageHover
 
 Starting to see more marquee ideas in web design and wanted to take a crack at it. I wanted to do a twist with it and add some hover to it. Was inspired by another web design that had the marquee hidden till hovered over. Tried to do this with gsap but thought it was simple enough to just use css. Problem is the animation kind of breaks with smaller screens but the hover will be pointless anyways so disabled it when smaller than 730px width. Also want to use a variety of words for each marquee but it messes with the timing of the animation. Maybe will go back and try to perfect it more.
+
+## Text Reveal & Hover Animation
+text-reveal
+
+Very quick and simple idea. Got both of these ideas from CodeGrid on Youtube. Both are actually seperate but they so small I decided to do them together. I really like the text reveal and think it would be a cool concept to do on a scroll event or on a page load. I just wanted to make it a click event to make sure I could see it. The hover effect I thought was going to be more complex but after seeing how it was done, its pretty simple. Not something I would do on every button but this or something similiar would be interesting for a call to action button. 

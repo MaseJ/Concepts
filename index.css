@@ -109,3 +109,42 @@ a {
       -webkit-mask-position: -50%;
     }
   }
+
+
+  @media (max-width: 705px) {
+    #footer a {
+        font-size: .8rem;
+        margin: 0 5px 0 5px;
+    }
+
+    #content ul {
+        font-size: 2rem;
+    }
+  }
+
+  @media (max-width: 500px) {
+    #header p {
+        font-size: 1.25rem;
+    }
+  }
+
+  @media (max-width: 450px) {
+    
+    #content ul {
+        font-size: 1.5rem;
+    }
+
+    #footer a {
+        font-size: .6rem;
+        margin: 0 5px 0 5px;
+    }
+  }
+
+  @media (max-width: 330px) {
+
+    #footer a {
+        font-size: .6rem;
+        margin: 0 2px 0 2px;
+    }
+  }
+
