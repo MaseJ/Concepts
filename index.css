@@ -86,12 +86,12 @@ a {
     margin: 5% 0 0 0;
     padding: 0;
     list-style: none;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 #content li {
     padding: 0;
-    margin: 50px 0 50px 0;
+    margin: 10px 0 10px 0;
 }
 
 .effect-shine:hover {
@@ -118,7 +118,7 @@ a {
     }
 
     #content ul {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
   }
 
@@ -126,12 +126,16 @@ a {
     #header p {
         font-size: 1.25rem;
     }
+
+    #content ul {
+        font-size: .75rem;
+    }
   }
 
   @media (max-width: 450px) {
     
     #content ul {
-        font-size: 1.5rem;
+        font-size: .75rem;
     }
 
     #footer a {

@@ -33,3 +33,13 @@ Starting to see more marquee ideas in web design and wanted to take a crack at i
 text-reveal
 
 Very quick and simple idea. Got both of these ideas from CodeGrid on Youtube. Both are actually seperate but they so small I decided to do them together. I really like the text reveal and think it would be a cool concept to do on a scroll event or on a page load. I just wanted to make it a click event to make sure I could see it. The hover effect I thought was going to be more complex but after seeing how it was done, its pretty simple. Not something I would do on every button but this or something similiar would be interesting for a call to action button. 
+
+## Page Intro Animation
+page-introAnimation
+
+Something I like and appreciate very much in modern web design is website intros. Whether its a full scale animation or something simple like this. It keeps me engaged and makes me want to go through the while website to see what other cool stuff they put in there. Becoming more comfortable with gsap and really liking it. I did not add any other effects other than the intro, I was inspired by a video of a intro very similiar to this. I have no idea if my timing or the easing is off but on some playthroughs the animations seems a little jumpy. 
+
+## Page Intro Animation v2
+page-introSlide
+
+Had a lot of fun with the previous concept and wanted to do another intro for a web page. This one has a little box animation and then page loads in. Getting used to timing things with gsap on the timeline. Now working with these timelines is a breeze and just have to focus on making the animation look smooth. 
