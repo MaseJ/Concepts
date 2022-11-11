@@ -2,7 +2,7 @@
 
 This folder will hold concept ideas I come up with or get inspired from.
 None of these will be full websites/applications but rather portions so they may lack in content.
-Using this to practice making responsive animations for websites in the future. Such as landing pages, website intros, components. Go to the link below to actually see the concepts in action or go to the folder to see the code itself.
+Using this to practice making responsive animations for websites in the future. Such as landing pages, website intros, components. I will also be documenting my after thoughts of each concept and how I thought about it. This log won't be very formal but just a way to track my progress. Go to the link below to actually see the concepts in action or go to the folder to see the code itself.
 
 ## [Showcase](https://masej.github.io/Concepts/)
 
@@ -59,3 +59,8 @@ For some reason I was thinking about how a lot of apps today have a swiping func
 intro-lineAnimation
 
 I had a lot of fun on this one. I would make this my own portfolio but I got this idea from a different [portfolio](https://brunoarizio.com/). I really liked the design he used so I tried to recreate it with my own twist on the circle animation. This is the first time using the yoyo with the repeat on the timeline. I also learned what mix-blend-mode is in css and that is an awesome tool to use. I'll be using that one in the future again. Gsap is for sure becoming my favorite tool at the moment.
+
+## Scroll Trigger Animation
+page-scrollTrigger
+
+This one was hard. I have played around scroll trigger in the past and never got far. Whenever I started to use pinning and scrub the spacing on everything got weird and just plain out broke. I wanted to give it a try again because it is becoming pretty popular now in many modern websites. I think this turned out ok. I ended up manually making new triggers for each animation and I am pretty sure there was an easier way to do that but I missed it. I think I am suppose to make a timeline but I did not know how to put different triggers in one timeline. A lot of things in here I could of done better but this one took awhile so I started to get tired. My next concept will most likley be similiar. I really wanna get this scroll trigger thing down and use it in upcoming projects. 
