@@ -71,7 +71,7 @@ iframe {
     padding: 0;
     color: var(--main-white);
     font-size: 8rem;
-    font-family: 'Fondamento', cursive;
+    font-family: 'Fondamento', 'Quicksand', sans-serif;
 }
 
 #content {
@@ -129,7 +129,7 @@ iframe {
     padding: 0;
     color: var(--main-white);
     font-size: 3.5rem;
-    font-family: 'Fondamento', cursive;
+    font-family: 'Fondamento', 'Quicksand', sans-serif
 }
 
 #footer {
@@ -163,6 +163,7 @@ a:-webkit-any-link:hover {
     background: url("images/MOSHED-2022-11-21-12-17-39.gif");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right;
 }
 
 #item2 > .img {
@@ -203,6 +204,7 @@ a:-webkit-any-link:hover {
 .cursor {
     pointer-events: none;
     position: fixed;
+    top: -15%;
     padding: .75rem;
     background-color: #fff;
     border-radius: 50%;
@@ -235,14 +237,36 @@ a:-webkit-any-link:hover {
     }
 
     .item--text {
-        margin: 0 0 0 15%;
+        margin: 0 0 0 10%;
+    }
+
+    .item > .img {
+        width: 40%;
+        height: 80%;
     }
 }
 
-@media (max-width: 850px) {
-    .item--text {
-        margin: 0 0 0 10%;
+@media (max-width: 900px) {
+    .item {
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 50% 0;
     }
+
+    .item--text {
+        margin: auto;
+    }
+    .item > .img {
+        width: 50%;
+        height: 50%;
+        margin-bottom: 5%;
+    }
+    
 }
 
 @media (max-width: 800px) {
@@ -268,14 +292,14 @@ a:-webkit-any-link:hover {
     }
 
     .item--text {
-        margin: 0 0 0 5%;
+        margin: 0 0 0 0;
     }
     
 }
 
 @media (max-width: 700px) {
     .item--text {
-        width: 30%
+        width:50%
     }
 
     .item--text > h1 {
@@ -319,7 +343,7 @@ a:-webkit-any-link:hover {
 
     
     .item--text {
-        margin: 0 0 0 5%;
+        margin: 0 0 0 0;
     }
 
     #name > p {
