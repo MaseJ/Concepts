@@ -64,3 +64,24 @@ I had a lot of fun on this one. I would make this my own portfolio but I got thi
 page-scrollTrigger
 
 This one was hard. I have played around scroll trigger in the past and never got far. Whenever I started to use pinning and scrub the spacing on everything got weird and just plain out broke. I wanted to give it a try again because it is becoming pretty popular now in many modern websites. I think this turned out ok. I ended up manually making new triggers for each animation and I am pretty sure there was an easier way to do that but I missed it. I think I am suppose to make a timeline but I did not know how to put different triggers in one timeline. A lot of things in here I could of done better but this one took awhile so I started to get tired. My next concept will most likley be similiar. I really wanna get this scroll trigger thing down and use it in upcoming projects. 
+
+## Retro Anti-Design Concepts
+retro-webDesign
+
+I was inspired by the cover art of a playlist I found the other day and really liked the design. This concept really has no animations but just wanted to play around with it and see how it would look. I really like the look of anti-designs and brutalism, but can see where they can over do it at times. I think having two seperate fonts with multiple layouts going on at once can get a little crazy. At some point I would like to do another concept like this with animations and more content. 
+
+## Scoll Page Intro
+intro-scrollAnimation
+
+Just played around with scroll trigger some more and getting the hang of it. I saw a web design that made the content look like it was coming from in the screen and not below. Kind of what I was trying to recreate here. Did not turn out that great but I wasn't planning to create a whole concept here. 
+
+## Smooth Scroll & 3D Objects
+smoothScroll-Animation
+
+Sometimes I see websites with cool 3D-Objects that you can interact with and I think to myself, "thats gotta be hard". I ended hearing about spline and started playing around with it and it's pretty cool even though it takes a bit to get used to. I wanted to see if I could mix in some gsap to animate it slightly. I did not want to animate it too much because it comes with an ugly tag on it linking to spline so at the moment it is out of the picture. Gsap also has a smooth scroll product but it is not free so I found lenis. Very easy to set up and makes the page feel so much better. Will probably use this on every project from now on. I really like the minimal look of this concept and how the animations feel. Nothing too crazy but enough to keep me interested. 
+
+## Free Style
+freeStyle
+
+This one I had no plan for and just wanted to make something from scratch. I ended up seeing this cool animation on a different website and found a library for it that works pretty well. Made use of some timelines for this and thats all.
+

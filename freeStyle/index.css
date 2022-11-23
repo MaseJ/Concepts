@@ -1,0 +1,246 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Barlow', sans-serif;
+    overflow: hidden;
+}
+
+#container {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+}
+
+#gradient-canvas {
+    width:100vw;
+    height:100vh;
+    margin: 0;
+    padding: 0;
+    --gradient-color-1: #070908; 
+    --gradient-color-2: #070908; 
+    --gradient-color-3: #070908;  
+    --gradient-color-4: #1c1200;
+  }
+
+#header {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(244,155,0,0.25);
+    backdrop-filter: blur(100px);
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    z-index: 29;
+    top: 0;
+}
+
+#header > h1,div {
+    margin: 0 5% 0 5%;
+    padding: 0;
+    color: #f49b00;
+}
+
+#header h1 {
+    font-weight: 500;
+}
+
+#button {
+    width: fit-content;
+    height: fit-content;
+    background: transparent;
+    position: absolute;
+    right: 5%;
+    z-index: 10;
+}
+
+.hero {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+
+#hero--text--container {
+    width: fit-content;
+    height: 3rem;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#hero--text--container h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.hero--text {
+    opacity: .75;
+}
+
+#about {
+    transform: translateY(100%);
+}
+
+#projects {
+    transform: translateY(100%);
+}
+
+#connect {
+    transform: translateY(100%);
+}
+
+#design {
+    width: 35px;
+    height: 35px;
+    background-color: none;
+    border: 2px solid #f49b00;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(270deg);
+    overflow: hidden;
+}
+
+.design--line {
+    width: 50%;
+    height: 2px;
+    transform: translateX(50%);
+    margin: 0;
+    padding: 0;
+    background-color: #f49b00;
+    transform-origin: left center;
+}
+
+#menu {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 30;
+    width: 30%;
+    height: 50%;
+    right: 0;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#menu h1 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    padding: 0;
+}
+
+#menu h1:hover .material-symbols-outlined {
+    opacity: 1;
+    transform: rotate(0deg);
+}
+
+.material-symbols-outlined {
+    font-size: 65px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: -5px;
+    transform: rotate(45deg);
+    opacity: 0;
+    transition: .5s ease;
+}
+
+
+@media (max-width: 770px) {
+    .hero {
+        margin-left: 2.5%;
+    }
+
+    #header h1 {
+        font-size: 1.5rem;
+    }
+
+    #menu > h1 {
+        font-size: 2rem;
+    }
+
+    #hero--text--container > h1 {
+        font-size: 2rem;
+    }
+
+    #hero--text--container {
+        height: 2rem;
+    }
+
+    #design {
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+    }
+
+    #header > h1,div {
+        margin: 0 0 0 5px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    #header h1 {
+        font-size: 1rem;
+    }
+
+    #hero--text--container > h1 {
+        font-size: 1.5rem;
+    }
+
+    #hero--text--container {
+        height: 1.5rem;
+    }
+
+    #menu > h1 {
+        font-size: 1.5rem;
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 400px) {
+    #header h1 {
+        margin-left: 0;
+    }
+
+    #design {
+        width: 20px;
+        height: 20px;
+    }
+
+    .hero {
+        margin-left: 5%;
+    }
+
+    #menu > h1 {
+        font-size: 1.5rem;
+        margin-left: 80px;
+    }
+
+}
