@@ -33,13 +33,15 @@ html::-webkit-scrollbar-thumb:hover {
 }
 
 iframe {
-    height: 100vh;
+    height: 1000px;
+    width: 1000px;
     position: fixed;
-    left: 30%;
+    left: 50%;
     top: 10%;
     opacity: .25;
-    overflow: visible;
 }
+
+
 
 #title {
     margin: 0;
@@ -100,7 +102,7 @@ iframe {
 .item > .img {
     margin: 0;
     padding: 0;
-    width: 30%;
+    width: 40%;
     height: 100%;
 }
 
@@ -163,7 +165,6 @@ a:-webkit-any-link:hover {
     background: url("images/MOSHED-2022-11-21-12-17-39.gif");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right;
 }
 
 #item2 > .img {
@@ -195,7 +196,7 @@ a:-webkit-any-link:hover {
     font-size: 8rem;
     width: 100%;
     height: 100%;
-    font-family: 'Fondamento', cursive;
+    font-family: 'Fondamento', 'Quicksand', sans-serif;
     position: absolute;
     top: 20vh;
     text-align: center;
@@ -260,13 +261,18 @@ a:-webkit-any-link:hover {
 
     .item--text {
         margin: auto;
+        width:50%
+        
     }
     .item > .img {
-        width: 50%;
-        height: 50%;
+        width: 50vw;
+        height: 50vw;
         margin-bottom: 5%;
     }
     
+    #footer {
+        padding-bottom: 10%;
+    }
 }
 
 @media (max-width: 800px) {
@@ -275,8 +281,8 @@ a:-webkit-any-link:hover {
     }
 
     .item > .img {
-        width: 40%;
-        height: 80%;
+        width: 60%;
+        height: 60vw;
     }
 
     #name > p {
@@ -314,6 +320,10 @@ a:-webkit-any-link:hover {
     iframe {
         top: 5;
     }
+
+    #footer {
+        padding-bottom: 15%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -326,8 +336,10 @@ a:-webkit-any-link:hover {
     }
 
     iframe {
-        top: 0;
+        top: 10%;
+        left: 50%;
     }
+    
 }
 
 
@@ -338,7 +350,7 @@ a:-webkit-any-link:hover {
 
     .item > .img {
         width: 50%;
-        height: 60%;
+        height: 50vw;
     }
 
     
@@ -354,5 +366,7 @@ a:-webkit-any-link:hover {
         font-size: 1.25rem;
     }
 
-
+    #footer {
+        padding-bottom: 18%;
+    }
 }
